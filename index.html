@@ -119,24 +119,24 @@
 
 <h2><span class="step">1</span>建立新施工計畫（兩種方式）</h2>
 <div class="card">
-  <b>方式 A・自己列工種天數</b>（工種照施工順序寫，<b>記得帶開工日</b>）：
-  <div class="fmt"><b>施工計畫</b> 案場名：<b>開工M/D</b>、工種1 N天、工種2 N天、…</div>
+  <b>方式 A・自己列工種天數</b>（工種照施工順序寫，<b>記得帶開工日，格式 yyyy/mm/dd</b>）：
+  <div class="fmt"><b>施工計畫</b> 案場名：<b>開工yyyy/mm/dd</b>、工種1 N天、工種2 N天、…</div>
   <div class="chat">
     <div class="who r">你</div>
-    <div class="bubble me">施工計畫 幸福華廈8F：開工8/3、保護 1天、水電配管 3天、木作 8天、油漆 5天、清潔 2天</div>
+    <div class="bubble me">施工計畫 幸福華廈8F：開工2026/8/3、保護 1天、水電配管 3天、木作 8天、油漆 5天、清潔 2天</div>
     <div class="who">機器人</div>
     <div class="bubble bot">✅ 施工計畫已收單，處理中…</div>
   </div>
   沒寫開工日機器人會回問一次——直接回覆日期就會繼續排。
 </div>
 <div class="card">
-  <b>方式 B・傳報價單，系統自己排</b>：先把報價單（PDF／Excel／拍照）傳到群裡，接著發一句（<b>加開工日</b>）：
-  <div class="fmt"><b>施工計畫</b> 案場名：<b>開工M/D</b></div>
+  <b>方式 B・傳報價單，系統自己排</b>：先把報價單（PDF／Excel／拍照）傳到群裡，接著發一句（<b>加開工日，格式 yyyy/mm/dd</b>）：
+  <div class="fmt"><b>施工計畫</b> 案場名：<b>開工yyyy/mm/dd</b></div>
   <div class="chat">
     <div class="who r">你</div>
     <div class="bubble me">📎 幸福華廈8F報價單.pdf</div>
     <div class="who r">你</div>
-    <div class="bubble me">施工計畫 幸福華廈8F：開工8/3</div>
+    <div class="bubble me">施工計畫 幸福華廈8F：開工2026/8/3</div>
     <div class="who">機器人</div>
     <div class="bubble bot">✅ 施工計畫已收單，處理中…</div>
   </div>
@@ -155,7 +155,7 @@
     <div class="bubble bot">✅ 施工計畫已收單，處理中…</div>
   </div>
   改多項用頓號連著寫：<span class="fmt" style="display:block">施工計畫 幸福華廈8F：木作改12天、油漆改6天</span>
-  開工日也能改：<span class="fmt" style="display:block">施工計畫 幸福華廈8F：開工日改8/10</span>
+  開工日也能改（<b>寫完整年月日 yyyy/mm/dd</b>）：<span class="fmt" style="display:block">施工計畫 幸福華廈8F：開工日改2026/8/10</span>
   排程一律照真實日曆：<b>週六日與春節等停工期間自動跳過</b>，改完摘要會列新的起訖日期與完工日。
 </div>
 
@@ -190,7 +190,7 @@ https://ruguo-reports…（點開看）</div>
     <li>案場名要寫對（跟群裡平常叫的案場名一致）</li>
     <li><b>你改完就是定稿</b>——排程直接生效，改之前先想清楚，或先在群裡跟大家喊一聲</li>
     <li>天數是「工作天」（<b>週一到週五</b>），系統照真實日曆排程，週六日與春節等停工期間自動跳過不排工程</li>
-    <li>新案要提供<b>開工日</b>（例：施工計畫 幸福華廈8F：開工1/19、保護 1天、…），改開工日也用修改指令（開工日改2/2）</li>
+    <li>新案要提供<b>開工日</b>，一律寫完整 <b>yyyy/mm/dd</b>（例：開工2026/8/3）——只寫月日機器人會回問年份</li>
   </ul>
 </div>
 

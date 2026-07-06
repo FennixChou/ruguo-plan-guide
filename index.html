@@ -117,9 +117,9 @@
   <div class="warn" style="margin-bottom:0">⚠️ 只有<b>公司開通的案場群</b>有效。不確定自己的群有沒有開通，問老闆。</div>
 </div>
 
-<h2><span class="step">1</span>建立新施工計畫</h2>
+<h2><span class="step">1</span>建立新施工計畫（兩種方式）</h2>
 <div class="card">
-  格式（工種照施工順序寫，天數自己估）：
+  <b>方式 A・自己列工種天數</b>（工種照施工順序寫）：
   <div class="fmt"><b>施工計畫</b> 案場名：工種1 N天、工種2 N天、…</div>
   <div class="chat">
     <div class="who r">你</div>
@@ -127,6 +127,20 @@
     <div class="who">機器人</div>
     <div class="bubble bot">✅ 施工計畫已收單，處理中…</div>
   </div>
+</div>
+<div class="card">
+  <b>方式 B・傳報價單，系統自己排</b>：先把報價單（PDF／Excel／拍照）傳到群裡，接著發一句：
+  <div class="fmt"><b>施工計畫</b> 案場名</div>
+  <div class="chat">
+    <div class="who r">你</div>
+    <div class="bubble me">📎 幸福華廈8F報價單.pdf</div>
+    <div class="who r">你</div>
+    <div class="bubble me">施工計畫 幸福華廈8F</div>
+    <div class="who">機器人</div>
+    <div class="bubble bot">✅ 施工計畫已收單，處理中…</div>
+  </div>
+  系統會從報價單抽工項、自動推估天數。<b>推估的天數記得自己看過</b>，不對就用「修改天數」調（下一節）。
+  <div class="warn" style="margin-bottom:0">💡 先傳檔案、再發指令，兩個動作間隔<b>別超過 30 分鐘</b>。</div>
 </div>
 
 <h2><span class="step">2</span>修改工期天數</h2>
@@ -142,12 +156,25 @@
   改多項用頓號連著寫：<span class="fmt" style="display:block">施工計畫 幸福華廈8F：木作改12天、油漆改6天</span>
 </div>
 
-<h2><span class="step">3</span>接著會發生什麼</h2>
+<h2><span class="step">3</span>查案場網頁連結</h2>
+<div class="card">
+  忘記連結、或想把連結轉給別人時，跟機器人要：
+  <div class="fmt"><b>施工計畫</b> 案場名：<b>網址</b></div>
+  <div class="chat">
+    <div class="who r">你</div>
+    <div class="bubble me">施工計畫 幸福華廈8F：網址</div>
+    <div class="who">機器人</div>
+    <div class="bubble bot">📋 幸福華廈8F 計畫表：
+https://ruguo-reports…（點開看）</div>
+  </div>
+</div>
+
+<h2><span class="step">4</span>接著會發生什麼</h2>
 <div class="card">
   <ul class="timeline">
     <li><span class="t">馬上</span><div class="d">群裡回「已收單」——代表系統接到了</div></li>
     <li><span class="t">10 分鐘內</span><div class="d">群裡回新的排程摘要：總工期＋每個工種的起訖日，<b>末尾附完整計畫表網頁連結</b></div></li>
-    <li><span class="t">點連結</span><div class="d">手機直接看最新甘特圖（每次修改都自動更新，連結永遠是同一個）</div></li>
+    <li><span class="t">點連結</span><div class="d">進到<b>案場首頁</b>：📋 施工計畫（最新甘特圖）＋📝 今日日報＋🗂 歷史日報三區，每次修改自動更新，連結永遠是同一個</div></li>
     <li><span class="t">同時</span><div class="d">正式的 PDF 計畫表自動送到老闆那邊；現場要用紙本跟老闆拿</div></li>
   </ul>
 </div>
@@ -177,9 +204,13 @@
     <div class="q">Q：打錯天數怎麼辦？</div>
     <div class="a">A：再發一次修改指令蓋過去就好（例：施工計畫 幸福華廈8F：木作改10天）。</div>
   </div>
+  <div class="qa">
+    <div class="q">Q：傳了報價單、發了指令卻沒排出來？</div>
+    <div class="a">A：確認順序是「先傳檔、再發指令」、間隔 30 分鐘內、案場名有寫。還是不行就改用方式 A 自己列工種天數。</div>
+  </div>
   <div class="qa" style="margin-bottom:0">
     <div class="q">Q：想看完整的甘特圖計畫表？</div>
-    <div class="a">A：點群裡摘要末尾附的<b>網頁連結</b>——那就是最新版甘特圖，改過會自動更新。要紙本或 PDF 跟老闆拿。</div>
+    <div class="a">A：點群裡摘要末尾附的<b>網頁連結</b>（或發「施工計畫 案場名：網址」跟機器人要）——進去是案場首頁，含最新甘特圖與日報。要紙本或 PDF 跟老闆拿。</div>
   </div>
 </div>
 
